@@ -1,7 +1,7 @@
 .home-wrapper {
     max-width: 850px;
     width: 90%;
-    margin: 5rem auto 0 auto;
+    margin: 5rem auto 10rem auto;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -31,6 +31,7 @@
     font-size: 1rem;
     font-weight:400;
     margin-bottom: 2rem;
+    font-family: 'Poppins', sans-serif;
 }
 
 .home-left-btn {
