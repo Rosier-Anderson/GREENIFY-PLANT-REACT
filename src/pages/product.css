@@ -1,0 +1,21 @@
+.products{
+    margin-top: 8rem;
+
+}
+.products-header{
+    margin: 0 auto;
+    text-align: center;
+
+}
+#products-heading{
+ 
+    font-size: 2.5rem;
+    font-weight: 600;
+     
+}
+.products-header > p {
+    font-size: large ;
+    display: inline-block;
+    background-color: aliceblue;
+    text-indent: 30px; /* Indents the first line */
+}

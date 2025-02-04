@@ -4,6 +4,7 @@ import { FaFacebookF } from "react-icons/fa";
 import { AiOutlineInstagram } from "react-icons/ai";
 import { FaTwitter } from "react-icons/fa6";
 import { LuArrowDownRight } from "react-icons/lu";
+import { TfiLayoutLineSolid } from "react-icons/tfi";
 export default function Home() {
   return (
     <section className="home-wrapper">
@@ -28,7 +29,7 @@ export default function Home() {
           alt="A pot of plants beautifully arranged."
         />
         <div className="home-right-link">
-          <p className="home-right-link-text">Follow Us ---</p>
+          <p className="home-right-link-text">Follow Us <span className="home-line"><TfiLayoutLineSolid  /></span></p>
           <a>
             <FaFacebookF />
           </a>
