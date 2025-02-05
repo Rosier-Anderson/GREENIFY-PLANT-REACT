@@ -1,16 +1,16 @@
 import React from 'react';
 import { IoBag } from "react-icons/io5";
-import './product.css'
+import '../styles/product.css'
 
 export default function Product() {
   return (
     <section aria-labelledby="products-heading" className="products">
       {/* Section Title */}
       <header className="products-header">
-        <h2 id="products-heading">Check Out Our <br /> <b/> Products</h2>
+        <h2 id="products-heading">Check Out Our <br />  Products</h2>
         <p>
           Here are some selected plants from our showroom, all <br />
-          are in excellent shape. Buy and enjoy the best quality.
+       <span className='second-line'>are in excellent shape. Buy and enjoy the best quality.</span>
         </p>
       </header>
 

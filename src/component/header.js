@@ -1,5 +1,5 @@
 import { RiLeafLine } from "react-icons/ri";
-import "./header.css";
+import "../styles/header.css";
 
 function Header() {
   

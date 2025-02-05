@@ -8,14 +8,19 @@
 
 }
 #products-heading{
- 
     font-size: 2.5rem;
     font-weight: 600;
-     
 }
 .products-header > p {
-    font-size: large ;
-    display: inline-block;
-    background-color: aliceblue;
-    text-indent: 30px; /* Indents the first line */
+    font-size: medium ;
+    display: block;
+    font-size: .99rem;
+    color: rgb(81, 85, 88);
+    
+}
+.second-line {
+    font-size: .95rem;
+
+   
+    
 }
