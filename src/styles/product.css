@@ -1,26 +1,75 @@
-.products{
-    margin-top: 8rem;
-
+.products {
+    margin: 8rem auto 0;
+    width: 800px;
 }
-.products-header{
-    margin: 0 auto;
+
+.products-header {
     text-align: center;
-
 }
-#products-heading{
+
+#products-heading {
     font-size: 2.5rem;
     font-weight: 600;
 }
-.products-header > p {
-    font-size: medium ;
-    display: block;
-    font-size: .99rem;
-    color: rgb(81, 85, 88);
-    
-}
-.second-line {
-    font-size: .95rem;
 
-   
-    
+.products-header > p {
+    font-size: 0.99rem;
+    display: block;
+}
+
+.second-line {
+    font-size: 0.95rem;
+}
+
+.product-list {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-img {
+    width: 150px;
+    height: 200px;
+    object-fit: contain;
+}
+
+.product-info {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.product-name,
+.product-price {
+    margin: 5px;
+}
+
+.add-to-cart {
+    border: none;
+    border-radius: 3px;
+    width: 30px;
+    height: 30px;
+    background-color: green;
+    position: absolute;
+    align-self: end;
+    cursor: pointer;
+    margin-top: 2rem;
+}
+
+.add-to-card-icon {
+    border: none;
+    color: white;
 }
