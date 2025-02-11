@@ -38,7 +38,7 @@ export default function FAQ() {
   return (
     <div className="accordion-container">
       <h2 className="accordion-title">
-        Some common questions <br /> were often asked0
+        Some common questions <br /> were often asked
       </h2>
 
       <div className="question-wrapper"> 
