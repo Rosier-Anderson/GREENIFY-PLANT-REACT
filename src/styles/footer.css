@@ -1,106 +1,167 @@
 .footer {
-   
-    margin-top: 1rem;
-    
+  position: relative;
+  margin: 0 auto;
+  width: 60%;
+  height: 100vh;
+  margin-top: 5rem;
 }
 .footer-wrapper {
-     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-}
-.footer-contact{
-  
- margin: 0;
- 
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+
 
 }
+.footer-contact {
+  margin-top: 0;
+  margin-bottom: 15rem;
+ 
+}
 .footer-title {
-    
-    font-size: 2rem;
-    font-weight: 600;
+  margin-top: 0;
+  font-size: 2rem;
+  font-weight: 600;
+  
 }
 
 .footer-address {
-    display: flex;
-    gap: 20px;
-    flex-direction: column;
-    justify-content: space-between;
+    margin-top: 1rem;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-.footer-phone-wraper {}
+.footer-phone-wraper {
+}
 
 .footer-phone {
-    text-decoration: none;
-    cursor: pointer;
-    color: gray;
+  text-decoration: none;
+  cursor: pointer;
+  color: gray;
 }
 
 .footer-text {
-    margin: 0;
-    font-weight: 500;
-    color: rgb(148, 138, 138);
+  margin: 0;
+  font-weight: 500;
+  color: rgb(148, 138, 138);
 }
 
-.footer-email-wrapper {}
+.footer-email-wrapper {
+    margin-top: .5rem;
+   
+}
 
 .footer-subtitle {
-    cursor: pointer;
-    text-decoration: none;
-    color: gray;
-    margin: 0;
-    
+  color: gray;
+  margin: 0;
 }
-.footer-email {
+.footer-email { 
     text-decoration: none;
-    color: grey;
+  text-decoration: none;
+  color: grey;
+   cursor: pointer;
 }
 
 .footer-form-section {
-    width: 500px;
-    margin-top: 4rem;
+   
+  width: 500px;
+  margin-top: rem;
 }
 
 .footer-form {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-  
-
-
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 }
-.footer-input{
-    padding: 1px;
-    border: none;
-   border-bottom : 1px solid grey ;
-   outline: none;
+.footer-input {
+  padding: 1px;
+  border: none;
+  border-bottom: 1px solid grey;
+  outline: none;
 }
-.footer-textarea{
-    
-    padding: 1px;
-    border: none;
-   border-bottom : 1px solid grey ;
-   outline: none;
-   margin-bottom: 2rem;
-   resize: none;
-    
-    
+.footer-textarea {
+  padding: 1px;
+  border: none;
+  border-bottom: 1px solid grey;
+  outline: none;
+  margin-bottom: 2rem;
+  resize: none;
 }
 
-.footer-button{
-    color: white;
-    font-size: 1rem;
-    font-weight: 700;
-    background-color: green;
-    border: none;
-    width: 10rem;
-    height: 3rem;
-    border-radius: 10px;
+.footer-button {
+  color: white;
+  font-size: 1rem;
+  font-weight: 700;
+  background-color: green;
+  border: none;
+  width: 10rem;
+  height: 3rem;
+  border-radius: 10px;
 }
 .footer-bottom {
-    display: flex;
-    justify-content: space-around;
-    
-    
-
-
+    margin-top: 5rem;
+  display: flex;
+  justify-content: space-around;
 }
+.footer-newsletter {
+}
+.footer-newsletter-title {
+  font-size: 1.3rem;
+}
+.footer-newsletter-form {
+  background-color: rgb(226, 249, 221);
+  width: 350px;
+  height: 80px;
+  border: none;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+}
+.footer-newsletter-input {
+  width: 80%;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+.footer-newsletter-button {
+  cursor: pointer;
+  user-select: none;
+  background-color: green;
+  font-weight: 700;
+  width: 230px;
+  height: 70%;
+  color: white;
+  font-size: 1.1rem;
+  margin: auto 0.6rem;
+  outline: unset;
+  border: none;
+  border-radius: 10px;
+}
+.footer-address-section {
+}
+.footer-contact-section {
+}
+.footer-payment-section {
+}
+.footer-payment-section img {
+  width: 30px;
+  padding: 5px;
+}
+
+
+.footer-copyright {
+    position: absolute;
+    width: 100%;
+     bottom: 0;
+    text-align: center; /* Centers the text */
+    font-size: 0.9rem; /* Smaller font size */
+    color: #888; /* Light grey color */
+    margin-top: 20px; /* Adds space at the top */
+  }
+  
+  .footer-copyright p {
+    margin: 0; /* Removes margin from <p> */
+  }

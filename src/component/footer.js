@@ -91,9 +91,9 @@ export default function Footer() {
               <input
                 type="email"
                 className="footer-newsletter-input"
-                placeholder="Enter your email"
+                placeholder=" Enter your email"
               />
-              <button type="submit" className="footer-newsletter-button">
+              <button contentEditable="false" type="submit" className="footer-newsletter-button">
                 Subscribe
               </button>
             </form>

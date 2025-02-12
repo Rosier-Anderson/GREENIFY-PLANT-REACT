@@ -95,7 +95,7 @@ color: rgb(114, 118, 114);
     border: none;
     margin: 200px auto 0 auto ;
     border-radius: 20px;
-   background-color: green;
+   background-color: var(--primary-color);
 }
 .step-wrapper-title{
     color: white;
