@@ -1,5 +1,5 @@
 .header-nav {
-    max-width: 80%;
+    width: 97%;
     height: 2.5rem;
     margin: 0 auto;
     display: flex;
@@ -8,6 +8,12 @@
     padding: 20px;
     color: rgb(38, 40, 37);
     font-family: 'Poppins', sans-serif;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    
+
+   
 }
 
 .header-nav-logo {
@@ -63,5 +69,7 @@
 .header-nav-menu-item.active .header-nav-menu-link {
     color: #27ae60; /* Active link color */
     font-weight: bold;
+    
 }
+
 

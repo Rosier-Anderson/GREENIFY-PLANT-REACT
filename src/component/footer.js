@@ -124,7 +124,7 @@ export default function Footer() {
         </div>
 
         <div className="footer-payment-section">
-          <h3 className="footer-section-title">We accept all credit cards</h3>
+          <h3 className="footer-section-title">We accept all <br/> credit cards</h3>
           <div className="footer-payment-icons">
             <img
               src="https://ajaykumar2543.github.io/Responsive-plant-store-website-/card1.png"

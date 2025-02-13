@@ -1,7 +1,14 @@
 
 body {
  font-family: 'Poppins', sans-serif;
+ background-color: #F5F5F5; 
+
 }
 :root {
-    --primary-color: #4CAF50;
+    --primary-green: #111;
+    --primary-btn: #007500;
+    --secondary-btn: #388E3C;
+    --text-color: #333333; 
+    --secondary-text-color: #666666; 
+    --white-color: #fff;
 }
