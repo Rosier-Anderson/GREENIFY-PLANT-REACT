@@ -1,10 +1,12 @@
 
 body {
+   
  font-family: 'Poppins', sans-serif;
- background-color: #F5F5F5; 
+ background-color: var(--primary-background)
+  }
 
-}
 :root {
+    --primary-background: #F5F5F5;
     --primary-green: #111;
     --primary-btn: #007500;
     --secondary-btn: #388E3C;

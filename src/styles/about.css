@@ -14,7 +14,7 @@
     
 }
 .about-image{
- width: 400px;
+ width: 400px; 
  height: 380px;
  object-fit:contain;
 
@@ -50,7 +50,7 @@
     flex-direction: column;
     align-items: flex-start;
    
-}
+                            }
 
 
 .feature-item{
@@ -59,33 +59,45 @@ font-family: inherit;
 margin:1.5px;
 color: rgb(114, 118, 114);
 
-
     
 }
 .feature-list-icon{
     color: green;
     font-size: large;
-}
+}                           
 .about-button-container {
     margin-top: 2rem;
-
+ 
 }
 .shop-link{
     font-size: 2px;
+    text-decoration: none;
     
+   
+    
+}
+ 
+.about-button-container:hover .shop-arrow{
+    transform: translateX(4.5px);
+transition: all 0.3s ease-in-out;   
 }
 .shop-button{
    
-    width: 9rem;
-    height: 3.50rem;
-    background-color: white;
+   
+   background-color: transparent;
     border: none;
-    border-radius: 10px;
+   
     color: green;
     font-size: large;
-      font-weight: 700;  
+      font-weight: 600;  
       cursor: pointer;
-    
+      display: flex;
+      gap: 5px;
+} 
+
+.shop-arrow {
+align-self: last baseline;
+
 }
 /* this is the css for the start article */
 .step-wrapper{
@@ -113,7 +125,7 @@ color: rgb(114, 118, 114);
 
 }
 .step{
-    background-color: white;
+    background-color: #fff;
     border-radius: 20px;
     border: none;
     width: 240px;

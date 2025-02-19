@@ -4,7 +4,7 @@ import "../styles/header.css";
 function Header() {
   return (
     <>
-      <div className="header-nav">
+      <header className="header-nav">
         <div className="header-nav-logo">
           <a
             className="header-nav-logo-link"
@@ -15,13 +15,13 @@ function Header() {
             GREENIFY
           </a>
         </div>
-        <div className="header-nav-menu">
+        <nav className="header-nav-menu">
           <ul className="header-nav-menu-list">
             <li className="header-nav-menu-item">
               <a href="./home" className="header-nav-menu-link">
                 Home
               </a>
-            </li>
+            </li> 
             <li className="header-nav-menu-item">
               <a href="./home" className="header-nav-menu-link">
                 About
@@ -34,7 +34,7 @@ function Header() {
             </li>
             <li className="header-nav-menu-item">
               <a href="./home" className="header-nav-menu-link">
-                FAQs
+                F AQs
               </a>
             </li>
             <li className="header-nav-menu-item">
@@ -43,8 +43,8 @@ function Header() {
               </a>
             </li>
           </ul>
-        </div>
-      </div>{" "}
+        </nav>
+      </header>{" "}
     </>
   );
 }

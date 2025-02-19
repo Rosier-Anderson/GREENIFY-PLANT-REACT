@@ -1,7 +1,8 @@
 import React from 'react'
 import { BiSolidCheckboxChecked } from "react-icons/bi";
 import { LuArrowDownRight } from "react-icons/lu";
-import '../styles/about.css'
+import '../styles/about.css';
+
 
 export default function About() {
   return (
@@ -44,7 +45,7 @@ export default function About() {
 
             <div className='about-button-container'>
                 <a href='/shop' className='shop-link'>
-                    <button className='shop-button'> Shop Now <LuArrowDownRight/></button>
+                    <button className='shop-button'> Shop Now <LuArrowDownRight className='shop-arrow'/></button>
                 </a>
             </div> 
         </div>
@@ -68,12 +69,11 @@ export default function About() {
         <article class="step">
             <h1 class="step-number"><span>03</span></h1>
             <h2 class="step-title">Get Plants Delivered</h2>
-            <p class="step-description">Our delivery process is easy, <br/> you receive the plant directly <br/> at your door.</p>
+            <p class="step-description">Our delivery  process is easy, <br/> you receive the plant directly <br/> at your door.</p>
         </article>
     </section>
 </article>
 
    </di>
     
-  )
-}
+  )}

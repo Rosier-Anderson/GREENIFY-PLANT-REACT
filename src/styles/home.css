@@ -1,98 +1,85 @@
 .home-wrapper {
-    max-width: 850px;
-    width: 90%;
-    margin: 5rem auto 10rem auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    font-family: "Poppins", sans-serif;
-
+  max-width: 850px;
+  width: 90%;
+  margin: 5rem auto 10rem auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
 }
 
-.home-left { 
-    
-
+.home-left {
 }
 
 .home-title {
-    font-size: 3.3rem;
-    font-weight: 600;
-    color: rgb(38, 40,37);
-    margin-bottom: 1.5rem;
-    
- 
-     
+  font-size: 3.3rem;
+  font-weight: 600;
+  color: rgb(38, 40, 37);
+  margin-bottom: 1.5rem;
 }
 
 .home-left-desc {
-   
-    color: rgb(114, 118, 114);
-    font-size: 1rem;
-    font-weight:400;
-    margin-bottom: 2rem;
-    font-family: 'Poppins', sans-serif;
+  color: rgb(114, 118, 114);
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 2rem;
+  font-family: "Poppins", sans-serif;
 }
 
 .home-left-btn {
-    width: 9rem;
-    height: 3.50rem;
-    background-color: green;
-    border: none;
-    border-radius: 10px;
-    color: #fff;
-   
-    padding-left: rem;
-    font-size: medium;
-      font-weight: 600; 
-   
+  width: 9rem;
+  height: 3.5rem;
+  background-color: green;
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  padding: 12px 24px;
+  font-size: medium;
+  font-weight: 600;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
 }
- .home-left-btn > span {
-   margin-left: -1.2rem;
+.home-left-btn > span {
+  margin-left: -1.2rem;
 }
 .home-left-btn:hover {
-    background-color: darkgreen; /* Darker green on hover */
-    cursor: pointer;
+  background-color: darkgreen; /* Darker green on hover */
 }
-
-
+.home-left-btn:hover .home-left-arrow {
+  transform: translateX(4.5px);
+}
+/* need to grow down when hover */
 .home-left-arrow {
-    position: absolute;
-    margin-top: .1rem;
-    padding-left: 5px;
-    font-size: large;
-    font-weight: 800;
-    
-   
-}
+  position: absolute;
+  margin-top: -0.1rem;
+  padding-left: 5px;
+  font-size: 1.4rem;
+  font-weight: 800;
+  transition: inherit;
+} 
 
 .home-right {
-    position: relative;
+  position: relative;
 }
 
 .home-right-img {
-    max-height: 20rem;
-    
-
+  max-height: 20rem;
 }
 
 .home-right-link {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    right: -7rem;
-    top: 7rem;
-    display: flex;
-    transform: rotate(90.9deg);
-    height: 40px;
-    font-size: medium;
-    font-weight: 500;
-    color: green;
-   
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: -7rem;
+  top: 7rem;
+  display: flex;
+  transform: rotate(90.9deg);
+  height: 40px;
+  font-size: medium;
+  font-weight: 500;
+  color: green;
 }
-.home-right-link-text{
-    
-
+.home-right-link-text {
 }
